@@ -1,0 +1,25 @@
+/* filename: [layout.css]
+
+author: [Callahan Elliott]
+
+created: [31/03/2025]
+
+last modified: [31/03/2025]
+
+description: [layout.css] */
+
+/* Cancelling out hover */
+aside:hover {display:block;}
+
+/* Menu Layout */
+menu { display: inline-block;
+}
+
+/* Box Layout */
+aside {
+    border: 4px inset purple;
+    border-radius: 14px;
+    margin: 1em;
+    padding: 1em;
+    background:url(images/fade.jpg) repeat-x top left;
+}
