@@ -9,10 +9,15 @@ last modified: [31/03/2025]
 description: [layout.css] */
 
 /* Cancelling out hover */
-aside:hover {display:block;}
+aside:hover {
+    display: block;
+    visibility: visible;
+    opacity: 100;
+}
 
 /* Menu Layout */
-.menu { display: inline-block;
+.menu {
+    display: inline-block;
 }
 
 /* Box Layout */
@@ -24,7 +29,7 @@ aside {
     width: 30%;
     float: right;
     box-shadow: 10px 10px 5px #aaaaaa;
-    background:url(images/fade.jpg) repeat-x top left;
+    background: url(images/fade.jpg) repeat-x top left;
 }
 
 /* Header Layout */
@@ -44,7 +49,7 @@ footer {
 }
 
 /* List Layout */
-#lists { 
+#lists {
     float: left;
 }
 
@@ -69,26 +74,38 @@ figure {
     border: 2px solid #ccc;
 }
 
-#lists, #images, #tables, #hyperlinks {
+#lists,
+#images,
+#tables,
+#hyperlinks {
     width: 50%;
     text-align: center;
 }
 
-ol, ul, dl {
-    text-align:left;
+ol,
+ul,
+dl {
+    text-align: left;
 }
 
-article { 
-    min-width:30em; 
+article {
+    min-width: 30em;
 }
 
 footer p {
     display: inline-block;
     width: 33%;
 }
-footer p:first-child { float:left; }
-footer p:nth-child(2) {text-align: center; }
-footer p:last-child {float:right; text-align:right; }
 
+footer p:first-child {
+    float: left;
+}
 
+footer p:nth-child(2) {
+    text-align: center;
+}
 
+footer p:last-child {
+    float: right;
+    text-align: right;
+}
